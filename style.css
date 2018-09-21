@@ -1,0 +1,32 @@
+.griddle {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(http://griddle.it/1152px-12-24px?color=f00) repeat-y top;
+    z-index: 9000;
+    opacity: 0.5;
+    display: none;
+}
+
+.post-edit-link,
+.separator,
+.griddle-switch {
+    position: fixed;
+    bottom: 12px;
+    font-size: 14px;
+    z-index: 9100;
+}
+
+.post-edit-link {
+    right: 60px;
+}
+
+.separator {
+    right: 46.8px; 
+}
+
+.griddle-switch {
+    right: 24px;
+}
