@@ -20,7 +20,9 @@
         <?php if ( is_user_logged_in() && wp_get_current_user()->user_email == get_option( 'admin_email' ) ) : ?>
             <div class="griddle"></div>
             <a class="griddle-switch" href="#">
-                <i class="fa fa-columns" aria-hidden="true"></i>
+               <svg width="20" height="17.5" viewBox="0 0 20 17.5" xmlns="http://www.w3.org/2000/svg">
+                    <path d="m18.1 0h-16.2c-1.1 0-1.9.8-1.9 1.9v13.8c0 1 .8 1.9 1.9 1.9h16.2c1 0 1.9-.8 1.9-1.9v-13.8c0-1.1-.8-1.9-1.9-1.9zm-9.3 15h-6.3v-10h6.2v10zm8.7 0h-6.2v-10h6.2z" fill="#666"/>
+                </svg>
             </a>
         <?php endif; ?>
 
